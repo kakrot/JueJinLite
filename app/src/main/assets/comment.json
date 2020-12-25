@@ -1,0 +1,180 @@
+{
+  "err_no": 0,
+  "err_msg": "success",
+  "data": [
+    {
+      "comment_id": "6906360813557891079",
+      "comment_info": {
+        "comment_id": "6906360813557891079",
+        "user_id": "1310273591844152",
+        "item_id": "6906153878312452103",
+        "item_type": 2,
+        "comment_content": "第一个不依托基类的可以用用,依托基类的那个kt没必要用,徒增耦合",
+        "comment_pics": [],
+        "comment_status": 1,
+        "ctime": 1608012441,
+        "comment_replys": [
+          {
+            "reply_id": "6906394107435057159",
+            "reply_comment_id": "6906360813557891079",
+            "user_id": "4195392100243000",
+            "reply_to_reply_id": "0",
+            "reply_to_user_id": "0",
+            "item_id": "6906153878312452103",
+            "item_type": 2,
+            "reply_content": "其实框架定好了，写在基类也不是不行。不过这部分更多是照顾在用 Java 的小伙伴。",
+            "reply_pics": [],
+            "reply_status": 1,
+            "ctime": 1608020192,
+            "digg_count": 0,
+            "burry_count": 0
+          }
+        ],
+        "digg_count": 1,
+        "bury_count": 0,
+        "reply_count": 1,
+        "is_digg": false,
+        "is_bury": false,
+        "level": 0
+      },
+      "user_info": {
+        "user_id": "1310273591844152",
+        "user_name": "执着的勺子",
+        "company": "",
+        "job_title": "android",
+        "avatar_large": "https://sf3-ttcdn-tos.pstatp.com/img/mosaic-legacy/3792/5112637127~120x256.image",
+        "level": 0,
+        "description": "喜欢躺着睡觉",
+        "followee_count": 16,
+        "follower_count": 0,
+        "post_article_count": 0,
+        "digg_article_count": 3,
+        "got_digg_count": 0,
+        "got_view_count": 0,
+        "post_shortmsg_count": 0,
+        "digg_shortmsg_count": 0,
+        "isfollowed": false,
+        "favorable_author": 0,
+        "power": 0,
+        "study_point": 0,
+        "university": {
+          "university_id": "0",
+          "name": "",
+          "logo": ""
+        },
+        "major": {
+          "major_id": "0",
+          "parent_id": "0",
+          "name": ""
+        },
+        "student_status": 0,
+        "select_event_count": 0,
+        "select_online_course_count": 0,
+        "identity": 0
+      },
+      "user_interact": {
+        "id": 6906153878312452103,
+        "omitempty": 2,
+        "user_id": 2277843825068702,
+        "is_digg": false,
+        "is_follow": false,
+        "is_collect": false
+      },
+      "reply_infos": [
+        {
+          "reply_id": 6906394107435057159,
+          "reply_info": {
+            "reply_id": "6906394107435057159",
+            "reply_comment_id": "6906360813557891079",
+            "user_id": "4195392100243000",
+            "reply_to_reply_id": "0",
+            "reply_to_user_id": "0",
+            "item_id": "6906153878312452103",
+            "item_type": 2,
+            "reply_content": "其实框架定好了，写在基类也不是不行。不过这部分更多是照顾在用 Java 的小伙伴。",
+            "reply_pics": [],
+            "reply_status": 1,
+            "ctime": 1608020192,
+            "digg_count": 0,
+            "burry_count": 0
+          },
+          "user_info": {
+            "user_id": "4195392100243000",
+            "user_name": "DylanCai",
+            "company": "",
+            "job_title": "Android Developer",
+            "avatar_large": "https://user-gold-cdn.xitu.io/2019/10/22/16df0971b44e6446?w=768\u0026h=768\u0026f=jpeg\u0026s=82749",
+            "level": 2,
+            "description": "一个兴趣使然的程序“工匠”",
+            "followee_count": 33,
+            "follower_count": 80,
+            "post_article_count": 3,
+            "digg_article_count": 249,
+            "got_digg_count": 231,
+            "got_view_count": 17691,
+            "post_shortmsg_count": 0,
+            "digg_shortmsg_count": 0,
+            "isfollowed": false,
+            "favorable_author": 0,
+            "power": 407,
+            "study_point": 0,
+            "university": {
+              "university_id": "0",
+              "name": "",
+              "logo": ""
+            },
+            "major": {
+              "major_id": "0",
+              "parent_id": "0",
+              "name": ""
+            },
+            "student_status": 0,
+            "select_event_count": 0,
+            "select_online_course_count": 0,
+            "identity": 0
+          },
+          "reply_user": {
+            "user_id": "0",
+            "user_name": "",
+            "company": "",
+            "job_title": "",
+            "avatar_large": "",
+            "level": 0,
+            "description": "",
+            "followee_count": 0,
+            "follower_count": 0,
+            "post_article_count": 0,
+            "digg_article_count": 0,
+            "got_digg_count": 0,
+            "got_view_count": 0,
+            "post_shortmsg_count": 0,
+            "digg_shortmsg_count": 0,
+            "isfollowed": false,
+            "favorable_author": 0,
+            "power": 0,
+            "study_point": 0,
+            "university": null,
+            "major": null,
+            "student_status": 0,
+            "select_event_count": 0,
+            "select_online_course_count": 0,
+            "identity": 0
+          },
+          "user_interact": {
+            "id": 6906153878312452103,
+            "omitempty": 2,
+            "user_id": 2277843825068702,
+            "is_digg": false,
+            "is_follow": false,
+            "is_collect": false
+          },
+          "is_author": true
+        }
+      ],
+      "is_author": false
+    }
+  ],
+  "cursor": "1",
+  "count": 1,
+  "has_more": false
+}

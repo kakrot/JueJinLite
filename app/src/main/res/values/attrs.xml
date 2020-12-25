@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ContentFrameLayout">
+
+        <attr name="request_error_layout" format="reference" />
+        <attr name="empty_data_layout" format="reference" />
+        <attr name="network_unable_layout" format="reference" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,27 @@
+{
+  "err_no": 0,
+  "err_msg": "success",
+  "data": {
+    "tag_id": "6809640407484334093",
+    "tag": {
+      "id": 2546526,
+      "tag_id": "6809640407484334093",
+      "tag_name": "前端",
+      "color": "#60ADFF",
+      "icon": "https://lc-gold-cdn.xitu.io/bac28828a49181c34110.png",
+      "back_ground": "",
+      "show_navi": 1,
+      "tag_alias": "",
+      "post_article_count": 49372,
+      "concern_user_count": 482858
+    },
+    "user_interact": {
+      "id": 6809640407484334093,
+      "omitempty": 9,
+      "user_id": 2277843825068702,
+      "is_digg": false,
+      "is_follow": true,
+      "is_collect": false
+    }
+  }
+}

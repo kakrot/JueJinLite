@@ -1,12 +1,13 @@
-package cn.juejin.app.lite.router
+package cn.juejin.app.lite.manager
 
 import androidx.collection.ArrayMap
 import java.util.*
 
-object ServiceProvider {
+object ServiceLoaderManager {
 
     private val services: ArrayMap<String, Any?> = ArrayMap()
 
+    @Suppress("UNCHECKED_CAST")
     fun <T> getService(clazz: Class<T>): T? {
         var value = services[clazz.name]
         if (null == value) {
@@ -19,8 +20,4 @@ object ServiceProvider {
         return if (null == value) null else (value as T)
     }
 
-}
-
-inline fun <reified T> service(): T? {
-    return ServiceProvider.getService(T::class.java)
 }

@@ -1,4 +1,4 @@
-package cn.juejin.app.lite.base
+package cn.juejin.app.lite.common
 
 import android.os.Bundle
 import android.view.LayoutInflater
