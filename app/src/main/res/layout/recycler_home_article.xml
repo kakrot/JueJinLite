@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingStart="16dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="10dp">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/home_recycler_iv_avatar"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_default_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:round="12dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/home_recycler_tv_username"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/home_recycler_iv_avatar"
+        app:layout_constraintStart_toEndOf="@id/home_recycler_iv_avatar"
+        app:layout_constraintTop_toTopOf="@id/home_recycler_iv_avatar"
+        tools:text="@string/app_name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/home_recycler_tv_title"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/home_recycler_iv_cover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_recycler_iv_avatar"
+        tools:text="@string/appbar_scrolling_view_behavior" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/home_recycler_tv_content"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textColor="#333333"
+        app:layout_constraintEnd_toEndOf="@id/home_recycler_tv_title"
+        app:layout_constraintStart_toStartOf="@id/home_recycler_tv_title"
+        app:layout_constraintTop_toBottomOf="@id/home_recycler_tv_title"
+        tools:text="@string/appbar_scrolling_view_behavior" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/home_recycler_iv_cover"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_default_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/home_recycler_tv_title"
+        app:layout_constraintTop_toTopOf="@id/home_recycler_tv_title"
+        app:round="6dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/home_recycler_tv_thumb"
+        style="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_thumb_up_16"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_recycler_tv_content"
+        tools:text="1234" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/home_recycler_tv_comment"
+        style="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:drawableStart="@drawable/ic_comment_16"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@id/home_recycler_tv_thumb"
+        app:layout_constraintStart_toEndOf="@id/home_recycler_tv_thumb"
+        app:layout_constraintTop_toTopOf="@id/home_recycler_tv_thumb"
+        tools:text="1234" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

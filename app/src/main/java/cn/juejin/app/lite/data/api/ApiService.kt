@@ -1,6 +1,7 @@
 package cn.juejin.app.lite.data.api
 
 import cn.juejin.app.lite.data.response.ApiResponse
+import cn.juejin.app.lite.data.response.FeedInfoResponse
 import cn.juejin.app.lite.data.response.RecommendListResponse
 import retrofit2.http.Body
 import retrofit2.http.POST
@@ -21,15 +22,15 @@ interface ApiService {
     //{"cate_id":"6809637769959178254"}
     @POST("recommend_api/v1/tag/recommend_tag_list")
     @JvmSuppressWildcards
-    fun getRecommendTagList(@Body params: Map<String, Any>)
+    suspend fun getRecommendTagList(@Body params: Map<String, Any>)
 
     /**
      * 获取每个category下的文章列表
      */
-    //{"id_type":2,"sort_type":200,"cate_id":"6809637769959178254","cursor":"0","limit":20}
+    //{"id_type":2,"sort_type":200,"cate_id":"6809635626879549454","cursor":"0","limit":20}
     @POST("recommend_api/v1/article/recommend_cate_feed")
     @JvmSuppressWildcards
-    fun getCategoryFeedList(@Body params: Map<String, Any>)
+    suspend fun getCategoryFeedList(@Body params: Map<String, Any>): ApiResponse<List<FeedInfoResponse>>
 
     /**
      * 文章详情页下面的相关推荐列表
@@ -53,7 +54,7 @@ interface ApiService {
     //{"article_id":"6906279483448393735"}
     @POST("content_api/v1/article/detail")
     @JvmSuppressWildcards
-    fun getArticleDetail(@Body params: Map<String, Any>)
+    suspend fun getArticleDetail(@Body params: Map<String, Any>):ApiResponse<FeedInfoResponse>
 
     /**
      * 获取评论列表
